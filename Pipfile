@@ -11,12 +11,12 @@ torchvision = "*"
 pycocotools = "*"
 timm = "*"
 torchsummary = "*"
-tensorboard = "*"
-ultralytics = "==8.0.134"
+ultralytics = "*"
 setuptools = "*"
-effdet = {git = "https://github.com/rwightman/efficientdet-pytorch.git"}
+wandb = "*"
+openmim = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.11"
+python_version = "*"
