@@ -8,12 +8,12 @@ def train():
     run = wandb.init(
         project="empty-shelf-detection",
         config={
-            "epochs": 1,
-            "model": "yolov8n",
+            "epochs": 15,
+            "model": "yolov8m",
             "dataset": "../../datasets/Supermarket-Empty-Shelf-Detector--3yolov8/data.yaml",
-            "device": "cuda",
-            "image_size": 320,
-            "freeze_layers": 10,
+            "device": 0,
+            "image_size": 640,
+            "freeze_layers": 5,
         },
     )
 
