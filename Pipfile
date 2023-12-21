@@ -15,6 +15,7 @@ ultralytics = "*"
 setuptools = "*"
 wandb = "*"
 openmim = "*"
+tidecv = "*"
 
 [dev-packages]
 
